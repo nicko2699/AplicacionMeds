@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MedsApp</string>
+    <string name="txtAgregarMed">Agregar medicamento</string>
+</resources>

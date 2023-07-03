@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cantidad recetada"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtPresentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Presentación"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+        android:id="@+id/txtUso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Uso indicado"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtGramaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gramaje/Ml"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtUso"/>
+
+        <EditText
+            android:id="@+id/txtReceta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Receta"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtVia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Via de administración"
+            android:inputType="textPersonName"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/txtPatente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Patente/Genérico"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtCaducidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Caducidad"
+            android:inputType="date"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtAdvertencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Advertencias"
+            android:inputType="textPersonName"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar medicamento"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
